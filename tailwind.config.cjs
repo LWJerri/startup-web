@@ -1,11 +1,4 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
-  },
+  content: ["./src/**/*.{svelte,js,ts}"],
   plugins: [require("daisyui")],
 };
