@@ -12,8 +12,8 @@ dependencies:
     specifier: ^3.2.2
     version: 3.2.2(svelte@3.59.2)(typescript@5.0.2)
   theme-change:
-    specifier: ^2.2.0
-    version: 2.2.0
+    specifier: ^2.5.0
+    version: 2.5.0
   tslib:
     specifier: ^2.4.1
     version: 2.4.1
@@ -1052,8 +1052,8 @@ packages:
     transitivePeerDependencies:
       - ts-node
 
-  /theme-change@2.2.0:
-    resolution: {integrity: sha512-vvgZEEfmH3yZGq2bWHyzs2AOG1SRfNnCvWbEnPzGpdvvCmAWtOsEdg4H6k/OMapegG+LEQvQ76tQoN9B+FT7rg==}
+  /theme-change@2.5.0:
+    resolution: {integrity: sha512-B/UdsgdHAGhSKHTAQnxg/etN0RaMDpehuJmZIjLMDVJ6DGIliRHGD6pODi1CXLQAN9GV0GSyB3G6yCuK05PkPQ==}
     dev: false
 
   /to-regex-range@5.0.1:
