@@ -34,7 +34,7 @@
   "dependencies": {
     "daisyui": "^3.0.0",
     "svelte-navigator": "^3.2.2",
-    "theme-change": "^2.2.0",
+    "theme-change": "^2.5.0",
     "tslib": "^2.4.1"
   }
 }
