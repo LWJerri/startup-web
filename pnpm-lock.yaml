@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^2.4.2
     version: 2.4.2(svelte@3.59.2)(vite@4.3.9)
   '@tsconfig/svelte':
-    specifier: ^4.0.1
-    version: 4.0.1
+    specifier: ^5.0.0
+    version: 5.0.0
   autoprefixer:
     specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.20)
@@ -336,8 +336,8 @@ packages:
       - supports-color
     dev: true
 
-  /@tsconfig/svelte@4.0.1:
-    resolution: {integrity: sha512-B+XlGpmuAQzJqDoBATNCvEPqQg0HkO7S8pM14QDI5NsmtymzRexQ1N+nX2H6RTtFbuFgaZD4I8AAi8voGg0GLg==}
+  /@tsconfig/svelte@5.0.0:
+    resolution: {integrity: sha512-iu5BqFjU0+OcLTNQp7fHe6Bf6zdNeJ9IZjLZMqWLuGzVFm/xx+lm//Tf6koPyRmxo55/Snm6RRQ990n89cRKFw==}
     dev: true
 
   /@types/pug@2.0.6:
