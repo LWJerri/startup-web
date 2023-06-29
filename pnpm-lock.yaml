@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   daisyui:
-    specifier: ^3.0.0
-    version: 3.0.0(postcss@8.4.20)
+    specifier: ^3.1.7
+    version: 3.1.7(postcss@8.4.20)
   svelte-navigator:
     specifier: ^3.2.2
     version: 3.2.2(svelte@3.59.2)(typescript@5.1.5)
@@ -452,15 +452,16 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-  /daisyui@3.0.0(postcss@8.4.20):
-    resolution: {integrity: sha512-EuNK9JQd5yrPLDynAPQkG/29vjZXFWhBK4HXvM83d9oJU0EmF35UNLLs0cslBFfLK4b+bOuhgoYPJ4BjytOxNQ==}
+  /daisyui@3.1.7(postcss@8.4.20):
+    resolution: {integrity: sha512-VQhaunQlB7Buo+AbE+S3i6H/eYknKEuKVHG67y7sbG58uEjeLK6n2rojG3YE7fwoOss6ldbUL8Oy0MyoJi0CHw==}
+    engines: {node: '>=16.9.0'}
     peerDependencies:
       postcss: ^8
     dependencies:
       colord: 2.9.3
       css-selector-tokenizer: 0.8.0
       postcss: 8.4.20
-      postcss-js: 4.0.0(postcss@8.4.20)
+      postcss-js: 4.0.1(postcss@8.4.20)
       tailwindcss: 3.3.2
     transitivePeerDependencies:
       - ts-node
@@ -822,11 +823,11 @@ packages:
       read-cache: 1.0.0
       resolve: 1.22.2
 
-  /postcss-js@4.0.0(postcss@8.4.20):
-    resolution: {integrity: sha512-77QESFBwgX4irogGVPgQ5s07vLvFqWr228qZY+w6lW599cRlK/HmnlivnnVUxkjHnCu4J16PDMHcH+e+2HbvTQ==}
+  /postcss-js@4.0.1(postcss@8.4.20):
+    resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
-      postcss: ^8.3.3
+      postcss: ^8.4.21
     dependencies:
       camelcase-css: 2.0.1
       postcss: 8.4.20
