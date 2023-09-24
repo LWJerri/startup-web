@@ -7,7 +7,7 @@ settings:
 dependencies:
   daisyui:
     specifier: ^3.4.0
-    version: 3.7.5
+    version: 3.7.7
   svelte-navigator:
     specifier: ^3.2.2
     version: 3.2.2(svelte@3.59.2)(typescript@5.2.2)
@@ -455,8 +455,8 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-  /daisyui@3.7.5:
-    resolution: {integrity: sha512-udhiBJYVvcPGXa+mL5IElke6EdddKecjbbz6m43+9IVqzK8GBwetg092Edclo42TkNboLD9nzodeesJygqZt2A==}
+  /daisyui@3.7.7:
+    resolution: {integrity: sha512-2/nFdW/6R9MMnR8tTm07jPVyPaZwpUSkVsFAADb7Oq8N2Ynbls57laDdNqxTCUmn0QvcZi01TKl8zQbAwRfw1w==}
     engines: {node: '>=16.9.0'}
     dependencies:
       colord: 2.9.3
