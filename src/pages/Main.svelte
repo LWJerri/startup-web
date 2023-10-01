@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { onMount } from "svelte";
   import { themeChange } from "theme-change";
 
@@ -10,14 +10,14 @@
 </script>
 
 <div>
-  <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
-    <div class="px-2 mx-2 navbar-start">
+  <div class="navbar rounded-box mb-2 bg-neutral text-neutral-content shadow-lg">
+    <div class="navbar-start mx-2 px-2">
       <span class="text-lg font-bold">Example</span>
     </div>
-    <div class="hidden px-2 mx-2 navbar-center lg:flex">
+    <div class="navbar-center mx-2 hidden px-2 lg:flex">
       <div class="flex items-stretch">
-        <a class="btn btn-ghost btn-sm rounded-btn" href="/example/1236">Example page</a>
-        <a class="btn btn-ghost btn-sm rounded-btn" href="/components/modal#my-modal">Click!</a>
+        <a class="btn btn-ghost rounded-btn btn-sm" href="/example/1236">Example page</a>
+        <a class="btn btn-ghost rounded-btn btn-sm" href="/components/modal#my-modal">Click!</a>
       </div>
     </div>
   </div>
